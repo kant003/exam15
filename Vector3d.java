@@ -1,4 +1,4 @@
-public abstract class Tuple3d {
+abstract class Tuple3d {
  
    public double x;
    public double y;
@@ -27,13 +27,6 @@ public abstract class Tuple3d {
 
 
 
-
-
-public class Vector3d extends Tuple3d {
- 
- public Vector3d(double x, double y, double z) {
-   super(x, y, z);
- }
  
 public class Vector3d extends Tuple3d {
  
